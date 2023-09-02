@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Guia das Galaxias</title>
+    <p><h2><strong>Grande Nuvem de Magalhães</strong></h2></p>
+</head>
+<body>
+   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Small_Magellanic_Cloud_%28Digitized_Sky_Survey_2%29.jpg/300px-Small_Magellanic_Cloud_%28Digitized_Sky_Survey_2%29.jpg"> 
+   <hr>
+      <p><h2><strong>Descrição</strong></h2></p>
+      Grande Nuvem de Magalhães (comumente abreviada como LMC, do inglês Large Magellanic Cloud) é uma galáxia anã
+  satélite que orbita em torno da Via Láctea.
+  <hr>
+
+<p><h2><strong>Dados Interessantes</strong></h2></p>
+<ol>
+    
+    <li>É rica em gases e poeira</li>
+    <li>Foi batizada por Fernão de Magalhães</li>
+    <li>A Grande Nuvem de Magalhães é uma das galáxias mais próximas da Via Láctea</li>
+</ol>
+<hr>
+<p><h2><strong>Outras Galáxias:</strong></h2> <a href="Andromeda.html">Andromeda</a>
+    <a href="olhonegro.html">Olho Negro</a>
+
+
+
+
+</body>
+</html>
