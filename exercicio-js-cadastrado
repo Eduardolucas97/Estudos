@@ -1,0 +1,11 @@
+const primeironome = prompt('Informe o primeiro nome do Jogador?')
+const sobrenome = prompt ('Informe o sobrenome do Jogador?')
+const Clube = prompt('Qual é o clube do Jogador?')
+const anoDeNascimento = prompt('Qual o ano de nascimento do Jogador?')
+
+alert(
+  'Jogador registrado no BID com sucesso!\n' + 
+  '\nNome Completo: ' + primeironome + ' ' + sobrenome +
+  '\nCampo de estudo: ' + Clube +
+  '\nIdade: '  + (2023 - anoDeNascimento)
+)
