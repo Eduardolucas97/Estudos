@@ -17,4 +17,11 @@ document.addEventListener("DOMContentLoaded", function () {
   updatePrinterStatus("impressora-1", "Ativa", 350, 75);
   updatePrinterStatus("impressora-2", "Inativa", 120, 40);
   updatePrinterStatus("impressora-3", "Ativa", 550, 30);
+  updatePrinterStatus("impressora-4", "Inativa", 439, 8);
+  updatePrinterStatus("impressora-5", "Inativa", 260, 42);
+  updatePrinterStatus("impressora-6", "Inativa", 87, 12);
+  updatePrinterStatus("impressora-7", "Inativa", 9, 99);
+  updatePrinterStatus("impressora-8", "Inativa", 14, 86);
+  updatePrinterStatus("impressora-9", "Inativa", 34, 76);
+  updatePrinterStatus("impressora-10", "Inativa", 23, 98);
 });
