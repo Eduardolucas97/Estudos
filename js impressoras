@@ -1,0 +1,20 @@
+document.addEventListener("DOMContentLoaded", function () {
+  // Função para atualizar status das impressoras
+  function updatePrinterStatus(id, status, impressao, toner) {
+    const impressora = document.getElementById(id);
+    const statusElem = impressora.querySelector(".status");
+    const impressaoElem = impressora.querySelector(".impressao-count");
+    const tonerElem = impressora.querySelector(".toner-status");
+
+    // Atualiza o status
+    statusElem.textContent = status;
+    statusElem.classList.toggle("inativa", status === "Inativa");
+    impressaoElem.textContent = impressao;
+    tonerElem.textContent = `${toner}%`;
+  }
+
+  // Atualizando as impressoras com novos dados
+  updatePrinterStatus("impressora-1", "Ativa", 350, 75);
+  updatePrinterStatus("impressora-2", "Inativa", 120, 40);
+  updatePrinterStatus("impressora-3", "Ativa", 550, 30);
+});
