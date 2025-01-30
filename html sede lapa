@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoramento de Impressoras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Monitoramento de Impressoras</h1>
+    </header>
+    
+    <section id="impressoras">
+        <!-- Impressora 1 -->
+          <div class="impressora" id="impressora-1">
+            <h2>CASA DE MÁQUINA - SAMSUNG 4080</h2>
+            <img src="/img/4080-removebg-preview.png" alt="SAMSUNG 4080" class="imagem-impressora">
+            <div class="info">
+                <p><strong>Status:</strong> <span class="status">Ativa</span></p>
+                <p><strong>Impressões realizadas:</strong> <span class="impressao-count">67.298</span></p>
+                <p><strong>Nível de toner:</strong> <span class="toner-status">45%</span></p>
+                <p><strong>Localização:</strong> <span class="localizacao">Casa de Máquinas Gêmeas</span></p>
+                <p><strong>Última manutenção:</strong> <span class="manutencao">14/08/2024</span></p>
+            </div>
+        </div>
+
+        <!-- Impressora 2 -->
+        <div class="impressora" id="impressora-2">
+            <h2>FACILITIES - SAMSUNG 4080</h2>
+            <img src="./img/4080-removebg-preview.png" alt="HP 408" class="imagem-impressora">
+            <div class="info">
+                <p><strong>Status:</strong> <span class="status">Ativa</span></p>
+                <p><strong>Impressões realizadas:</strong> <span class="impressao-count">66.144</span></p>
+                <p><strong>Nível de toner:</strong> <span class="toner-status">61%</span></p>
+                <p><strong>Localização:</strong> <span class="localizacao">Facilities</span></p>
+                <p><strong>Última manutenção:</strong> <span class="manutencao">27/09/2024</span></p>
+            </div>
+        </div>
+
+        <!-- Impressora 3 -->
+     <div class="impressora" id="impressora-3">
+            <h2>PRESIDÊNCIA - HP 57540</h2>
+            <img src="./img/57540-removebg-preview.png" alt="HP 432" class="imagem-impressora">
+            <div class="info">
+                <p><strong>Status:</strong> <span class="status">Ativa</span></p>
+                <p><strong>Impressões realizadas:</strong> <span class="impressao-count">49.878</span></p>
+                <p><strong>Nível de toner:</strong> <span class="toner-status">60%</span></p>
+                <p><strong>Localização:</strong> <span class="localizacao">Presidência</span></p>
+                <p><strong>Última manutenção:</strong> <span class="manutencao">11/11/2024</span></p>
+            </div>
+        </div>
+
+        <!-- Impressora 4 -->
+         <div class="impressora" id="impressora-4">
+            <h2>CASA DE MÁQUINA - SAMSUNG 4080</h2>
+            <img src="./img/4080-removebg-preview.png" alt="SAMSUNG 4080" class="imagem-impressora">
+            <div class="info">
+                <p><strong>Status:</strong> <span class="status">Ativa</span></p>
+                <p><strong>Impressões realizadas:</strong> <span class="impressao-count">47.006</span></p>
+                <p><strong>Nível de toner:</strong> <span class="toner-status">83%</span></p>
+                <p><strong>Localização:</strong> <span class="localizacao">Casa de Máquina </span></p>
+                <p><strong>Última manutenção:</strong> <span class="manutencao">02/08/2024</span></p>
+            </div>
+        </div>
+   
+    
+        <!-- Impressora 5 -->
+        <div class="impressora" id="impressora-5">
+            <h2>JURIDICO - SAMSUNG 4080</h2>
+            <img src="/img/4080-removebg-preview.png" alt="HP 52645" class="imagem-impressora">
+            <div class="info">
+                <p><strong>Status:</strong> <span class="status">Ativa</span></p>
+                <p><strong>Impressões realizadas:</strong> <span class="impressao-count">45.272</span></p>
+                <p><strong>Nível de toner:</strong> <span class="toner-status">55%</span></p>
+                <p><strong>Localização:</strong> <span class="localizacao">JURIDICO</span></p>
+                <p><strong>Última manutenção:</strong> <span class="manutencao">01/07/2024</span></p>
+            </div>
+        </div>
+
+        <!-- Impressora 6 -->
+        <div class="impressora" id="impressora-6">
+            <h2>ENGENHARIA PROJETOS - HP 77830</h2>
+            <img src="/img/77830-removebg-preview.png" alt="HP 77830" class="imagem-impressora">
+            <div class="info">
+                <p><strong>Status:</strong> <span class="status">Ativa</span></p>
+                <p><strong>Impressões realizadas:</strong> <span class="impressao-count">36.625</span></p>
+                <p><strong>Nível de toner:</strong> <span class="toner-status">60%</span></p>
+                <p><strong>Localização:</strong> <span class="localizacao">ENGENHARIA PROJETOS</span></p>
+                <p><strong>Última manutenção:</strong> <span class="manutencao">05/06/2024</span></p>
+            </div>
+        </div>
+
+        <!-- Impressora 7 -->
+        <div class="impressora" id="impressora-7">
+            <h2>FIELD - SAMSUNG 4080</h2>
+            <img src="/img/4080-removebg-preview.png" alt="HP T1600" class="imagem-impressora">
+            <div class="info">
+                <p><strong>Status:</strong> <span class="status">Ativa</span></p>
+                <p><strong>Impressões realizadas:</strong> <span class="impressao-count">32.472</span></p>
+                <p><strong>Nível de toner:</strong> <span class="toner-status">53%</span></p>
+                <p><strong>Localização:</strong> <span class="localizacao">FIELD</span></p>
+                <p><strong>Última manutenção:</strong> <span class="manutencao">14/11/2024</span></p>
+            </div>
+        </div>
+
+        <!-- Impressora 8 -->
+        <div class="impressora" id="impressora-8">
+            <h2>MARKETING - SAMSUNG 4080</h2>
+            <img src="/img/4080-removebg-preview.png" alt="SAMSUNG C480" class="imagem-impressora">
+            <div class="info">
+                <p><strong>Status:</strong> <span class="status inativa">Inativa</span></p>
+                <p><strong>Impressões realizadas:</strong> <span class="impressao-count">11.391</span></p>
+                <p><strong>Nível de toner:</strong> <span class="toner-status">44%</span></p>
+                <p><strong>Localização:</strong> <span class="localizacao">MARKETING</span></p>
+                <p><strong>Última manutenção:</strong> <span class="manutencao">09/10/2024</span></p>
+            </div>
+        </div>
+
+        <!-- Impressora 9 -->
+      <div class="impressora" id="impressora-9">
+            <h2>AMBULATÓRIO - SAMSUNG 4080</h2>
+            <img src="/img/4080-removebg-preview.png" alt="SAMSUNG 4025" class="imagem-impressora">
+            <div class="info">
+                <p><strong>Status:</strong> <span class="status">Ativa</span></p>
+                <p><strong>Impressões realizadas:</strong> <span class="impressao-count">10.084</span></p>
+                <p><strong>Nível de toner:</strong> <span class="toner-status">85%</span></p>
+                <p><strong>Localização:</strong> <span class="localizacao">AMBULATÓRIO</span></p>
+                <p><strong>Última manutenção:</strong> <span class="manutencao">02/03/2024</span></p>
+            </div>
+        </div>
+        <!-- Impressora 10 -->
+        <div class="impressora" id="impressora-10">
+            <h2>SAMSUNG 4580</h2>
+            <img src="/img/4580-removebg-preview.png" alt="SAMSUNG 4580" class="imagem-impressora">
+            <div class="info">
+                <p><strong>Status:</strong> <span class="status inativa">Inativa</span></p>
+                <p><strong>Impressões realizadas:</strong> <span class="impressao-count">37</span></p>
+                <p><strong>Nível de toner:</strong> <span class="toner-status">87%</span></p>
+                <p><strong>Localização:</strong> <span class="localizacao">Auditório</span></p>
+                <p><strong>Última manutenção:</strong> <span class="manutencao">01/02/2024</span></p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Sistema de Monitoramento de Impressoras</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
